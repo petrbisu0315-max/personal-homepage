@@ -1,0 +1,4 @@
+/* Keep the metal frame physically still. Only the hovered object is animated. */
+.pegboard{transform:none!important;transition:none!important;will-change:auto!important}
+.board-widget{will-change:transform;backface-visibility:hidden;transform-style:preserve-3d}
+.board-widget:hover{transition-duration:.28s}
